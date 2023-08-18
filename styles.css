@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: DarkSlateGrey;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: SteelBlue;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: black; /* Change to your desired hover color */
+}
+
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .search input[type="text"] {
+    padding: 0.5rem;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+.search button {
+  background-color: DarkSlateGrey;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: CadetBlue;
+}
+  .payment-button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.payment-button button {
+  background-color: LightSkyBlue;
+  color: black;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.payment-button button:hover {
+  background-color: DeepSkyBlue;
+  color: white;
+} 
+
+
+
+  .categories {
+  display: flex;
+  justify-content: center;
+  background-color: SeaGreen;
+  padding: 0.5rem;
+}
+
+.categories a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+
+}
+
+.categories a:hover {
+  color: black; /* Change to your desired hover color */
+}
+/* Place logo on the top left corner with a corner */
+.logo {
+    text-align: left;
+    margin: 20px 0;
+    position: relative;
+}
+
+/* Style the logo */
+.logo img {
+    max-width: 100px;
+}
+
+/* Add a corner to the logo */
+.logo:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #333 transparent transparent;
+}
+
+
+/* প্রোডাক্ট কন্টেনার সেকশন */
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.product {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.product span {
+  display: block;
+  font-size: 1.25rem;
+  color: #e44d26;
+  margin-top: 10px;
+}
+
+/* "কেনা" বাটন স্টাইল */
+.buy-button {
+  background-color: #e44d26;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #c3351d;
+} 
+
+.contract {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: Silver;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contract h1 {
+  text-align: center;
+}
+
+.contract p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.accept-button {
+  background-color: DarkSlateGrey;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.accept-button:hover {
+  background-color: #333;
+}
+
+
+.footer {
+  position: relative;
+  margin-top: auto;
+}
+
+.footer footer {
+  background-color: DarkSlateGrey;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+}
+
